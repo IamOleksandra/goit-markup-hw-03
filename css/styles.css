@@ -1,0 +1,172 @@
+ul {
+    list-style:none;
+}
+a {
+text-decoration: none;
+}
+body {
+    background-color: #FFFFFF;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+}   
+/*======== Header========*/
+.header {
+
+}
+
+
+.logo {
+font-family:'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.logo-part-one {
+color:#2196F3;
+}
+.logo-part-two {
+color:#212121; 
+ }
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+color:#2196F3;
+}  
+.tel-mail-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #757575;
+} 
+.tel-mail-link:hover,
+.tel-mail-link:focus {
+    color:#2196F3;
+} 
+/*======== Hero========*/
+.main-section {
+background: #2F303A;
+} 
+.modal-btn {
+background-color:#2196F3;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+} 
+.main-title {
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:  #FFFFFF;;
+} 
+/*======== Особенности=======*/
+.features-section {
+background: #E5E5E5;
+}    
+.features-titele  {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.features-text {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*======== Чем мы занимаемся=======*/
+.services-section {
+    background-color:  #E5E5E5;
+}
+.secondary-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/*======== Наша команда=======*/ 
+.team-section {
+background-color: #F5F4FA;
+} 
+.team-member {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-member-profession {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*======== Footer======== */
+.logo-footer {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2F303A;
+}
+.logo-footer-part-one {
+color:#2196F3;
+}   
+.logo-footer-part-two {
+color:#FFFFFF;
+}   
+.adress {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.adress:hover{
+color:#2196F3;
+}
+.footer-mail-tel-link {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71; 
+letter-spacing: 0.03em; 
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail-tel-link:hover,
+.footer-mail-tel--link:focus {
+color:#2196F3;
+}
+.footer {
+background-color: #2F303A;
+}
