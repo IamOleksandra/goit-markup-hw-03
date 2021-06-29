@@ -87,7 +87,8 @@ box-sizing: border-box;
 } 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color:#6faee9;
+    background-color:#188CE8;
+    
  }
 .main-title {
 font-family:'Roboto', sans-serif;
@@ -184,8 +185,7 @@ line-height: 1.71;
 letter-spacing: 0.03em; 
 color: rgba(255, 255, 255, 0.6);
 }
-.footer-mail-tel-link:hover,
-.footer-mail-tel--link:focus {
+.footer-mail-tel-link:hover {
 color:#2196F3;
 }
 .footer {
