@@ -7,7 +7,6 @@ text-decoration: none;
 body {
     background-color: #FFFFFF;
     font-family:'Roboto', sans-serif;
-    font-style: normal;
 }   
 /*======== Header========*/
 .header {
@@ -25,10 +24,24 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .logo-part-one {
+font-family:'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0;
 color:#2196F3;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logo-part-two {
+font-family:'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 color:#212121; 
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
 .menu-link {
 font-weight: 500;
@@ -37,8 +50,7 @@ line-height: 1.143;
 letter-spacing: 0.02em;
 color: #212121;
 }
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover {
 color:#2196F3;
 }  
 .tel-mail-link{
@@ -48,8 +60,7 @@ line-height: 1.143;
 letter-spacing: 0.02em;
 color: #757575;
 } 
-.tel-mail-link:hover,
-.tel-mail-link:focus {
+.tel-mail-link:hover {
     color:#2196F3;
 } 
 /*======== Hero========*/
@@ -58,6 +69,7 @@ background: #2F303A;
 } 
 .modal-btn {
 background-color:#2196F3;
+text-decoration: none;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -67,7 +79,16 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+box-sizing: border-box;
 } 
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color:#6faee9;
+ }
 .main-title {
 font-family:'Roboto', sans-serif;
 font-style: normal;
@@ -153,7 +174,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
-.adress:hover{
+.adress:hover {
 color:#2196F3;
 }
 .footer-mail-tel-link {
