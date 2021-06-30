@@ -7,7 +7,13 @@ text-decoration: none;
 body {
     background-color: #FFFFFF;
     font-family:'Roboto', sans-serif;
-}   
+} 
+:root { 
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --main-title-color: #FFFFFF;
+    --accent-color: #2196F3;
+}
 /*======== Header========*/
 .header {
 
@@ -21,7 +27,7 @@ font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color:var (--main-title-color);
 }
 .logo-part-one {
 font-family:'Raleway', sans-serif;
@@ -30,7 +36,7 @@ font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0;
-color:#2196F3;
+color:var(--accent-color);
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logo-part-two {
@@ -48,7 +54,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.02em;
-color: #212121;
+color:var(--main-text-color);
 }
 .menu-link:hover {
 color:#2196F3;
@@ -111,14 +117,14 @@ font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--main-text-color);
 }
 .features-text {
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--secondary-text-color);
 }
 /*======== Чем мы занимаемся=======*/
 .services-section {
@@ -141,7 +147,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--main-text-color);
 }
 .team-member-profession {
 font-weight: normal;
@@ -149,7 +155,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--secondary-text-color);
 }
 
 /*======== Footer======== */
@@ -160,23 +166,20 @@ font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2F303A;
+color: var(--main-text-color);
 }
 .logo-footer-part-one {
-color:#2196F3;
+color:var(--accent-color);
 }   
 .logo-footer-part-two {
-color:#FFFFFF;
+color:var(--main-title-color);
 }   
 .adress {
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
-}
-.adress:hover {
-color:#2196F3;
+color: var(--main-title-color);
 }
 .footer-mail-tel-link {
 font-weight: normal;
@@ -185,9 +188,24 @@ line-height: 1.71;
 letter-spacing: 0.03em; 
 color: rgba(255, 255, 255, 0.6);
 }
-.footer-mail-tel-link:hover {
-color:#2196F3;
-}
 .footer {
 background-color: #2F303A;
+}
+
+/*======== Portfolio.html======== */
+.project-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);  
+}
+.project-description {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color);
 }
