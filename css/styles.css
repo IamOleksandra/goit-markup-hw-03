@@ -12,7 +12,7 @@ body {
     --main-text-color:#212121;
     --secondary-text-color:#757575;
     --main-title-color:#FFFFFF;
-    --accent-color:#2196F3;
+    --accent-color: #2196F3;
 }
 /*======== Header========*/
 .header {
@@ -84,7 +84,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color:var(--main-title-color);
+color:#FFFFFF;
 display: flex;
 align-items: center;
 text-align: center;
