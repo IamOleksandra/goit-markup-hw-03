@@ -9,10 +9,10 @@ body {
     font-family:'Roboto', sans-serif;
 } 
 :root { 
-    --main-text-color: #212121;
-    --secondary-text-color: #757575;
-    --main-title-color: #FFFFFF;
-    --accent-color: #2196F3;
+    --main-text-color:#212121;
+    --secondary-text-color:#757575;
+    --main-title-color:#FFFFFF;
+    --accent-color:#2196F3;
 }
 /*======== Header========*/
 .header {
@@ -64,7 +64,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.02em;
-color: #757575;
+color:#757575;
 } 
 .tel-mail-link:hover {
     color:#2196F3;
@@ -84,7 +84,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color:var(-main-title-color);
+color:var(--main-title-color);
 display: flex;
 align-items: center;
 text-align: center;
@@ -105,7 +105,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color:  #FFFFFF;;
+color: var( --main-title-color);
 } 
 /*======== Особенности=======*/
 .features-section {
