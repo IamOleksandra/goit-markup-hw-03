@@ -47,6 +47,7 @@ padding-right: 15px;
 .header {
 padding-top:24px; 
 padding-bottom:25px;
+border-bottom: 1px solid#ECECEC;
 }
 .header-container {
 display: flex;
@@ -166,7 +167,7 @@ padding-top: 200px;
 
 /*======== Особенности=======*/
 .features-section {
-background: #E5E5E5;
+background: #FFFFFF;
 padding-top: 94px;
 padding-bottom: 94px;
 }    
@@ -183,20 +184,18 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
-width: 270px;
-height:75px ;
-margin-top: 10px;
 }
 .features{
 display:flex;
 justify-content:space-between;
-padding-left: 15px;
-padding-right: 15px;
 }   
-
+.features-items {
+width: 270px;
+height: 75px;
+}
 /*======== Чем мы занимаемся=======*/
 .services-section {
-background-color:  #E5E5E5;
+background-color:  #FFFFFF;
 padding-bottom: 94px;
 padding-bottom: 94px;
 }
@@ -238,7 +237,7 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
-margin: 10px 70px 30px;
+margin-bottom:30px;
 
 }
 .team {
@@ -247,10 +246,12 @@ justify-content:space-between;
 padding-left: 15px;
 padding-right: 15px;
 }
-.team-color{
+.team-item{
 background-color: #FFFFFF;
 border-radius: 4px;
 box-shadow:rgba(0, 0, 0, 0.2);
+width: 270px;
+
 }
 
 /*======== Footer======== */
@@ -271,23 +272,25 @@ color:var(--accent-color);
 color:var(--main-title-color);
 }   
 .adress {
+font-family:'Roboto', sans-serif;
 font-size: 14px;
-line-height: 1.71;
+line-height: 24px;
+line-height: 146%;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
 margin-bottom: 9px;
 }
 .footer-mail-tel-link {
+font-family:'Roboto', sans-serif;
 font-size: 14px;
-line-height: 1.71; 
 letter-spacing: 0.03em; 
 color: rgba(255, 255, 255, 0.6);
 margin-bottom: 9px;
 }
 .footer {
 background-color: #2F303A;
-height:192px;
 padding-top: 60px;
+padding-bottom:  60px;
 }
 .footer-adress {
 display: flex;
@@ -303,7 +306,6 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-text-color); 
-margin:20px 24px 4px ;
 
 }
 .project-description {
@@ -312,10 +314,7 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color:var(--secondary-text-color);
-margin-left: 24px;
-margin-right: 24px;
-margin-top: 4px;
-margin-bottom: 20px;
+
 }
 .projects-btn {
 font-family: 'Roboto', sans-serif;
@@ -341,29 +340,35 @@ display:flex;
 align-items: center;
 justify-items: center;
 margin-left:295px ;
+padding-bottom: 50px;
+padding-top: 100px;
 }
 
 .our-projects {
 display:flex;
-justify-content: space-between;
 flex-wrap: wrap;
-padding-left: 15px;
-padding-right: 15px;
+margin-left: -15px;
+margin-top: -15px;
 }
-.projects-section {
-    background-color: #E5E5E5;
-    padding-top: 100px;
-    padding-bottom: 50px;
-
-    }
-.portfolio-main-section{
-background-color: #E5E5E5;
-padding-bottom: 94px;
-}
-.projects-items {
+.projects-section { 
 background-color: #FFFFFF;
-border-radius: 4px;
-box-shadow:rgba(0, 0, 0, 0.2);
-margin-bottom: 30px;
-margin-top: 4px;
+padding-bottom: 94px;
+
+}
+
+.projects-items {
+border-style: ridge;
+margin-top:15px;
+margin-left: 15px;
+padding-bottom: 110px;
+flex-basis: calc(100%-90px/3);
+width: 370px;
+padding-bottom: 20px;
+margin-bottom:15px ;
+}
+.item {
+margin-right: 24px;
+margin-left: 24px;
+margin-top: 20px ;
+margin-bottom: 20px;
 }
