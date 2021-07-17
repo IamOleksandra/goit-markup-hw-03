@@ -41,8 +41,7 @@ width: 1200px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
-margin-right: auto;
-margin-right: auto;
+
 } 
 img {
 display: block;
@@ -127,7 +126,9 @@ padding-right: 50px;
 /*======== Hero========*/
 .main-section {
 background: #2F303A;
-height: 600px;
+text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
 } 
 .modal-btn {
 background-color:var(--accent-color);
@@ -166,13 +167,10 @@ text-transform: uppercase;
 color: var( --main-title-color);
 margin-bottom: 30px;
 } 
-h1 {
-    display: block;
-    text-align: center;
 
 
-} 
-} 
+
+
 /*======== Особенности=======*/
 .features-section {
 background: #FFFFFF;
