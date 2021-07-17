@@ -192,7 +192,7 @@ color: var(--secondary-text-color);
 }
 .features{
     display:flex;
-    padding:94px 0 47px; ;
+    padding:94px 15px 47px; ;
     }  
 .features-items {
 width: 270px;
