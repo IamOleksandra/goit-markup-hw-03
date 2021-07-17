@@ -41,8 +41,13 @@ width: 1200px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
+margin-right: auto;
+margin-right: auto;
 } 
-
+img {
+display: block;
+max-width: 100%;
+} 
 /*======== Header========*/
 .header {
 padding-top:24px; 
@@ -159,17 +164,19 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var( --main-title-color);
-margin-right:  252px;
-margin-left: 252px;
-padding-top: 200px;
+margin-bottom: 30px;
 } 
+h1 {
+    display: block;
+    text-align: center;
 
 
+} 
+} 
 /*======== Особенности=======*/
 .features-section {
 background: #FFFFFF;
-padding-top: 94px;
-padding-bottom: 94px;
+
 }    
 .features-title  {
 font-weight: bold;
@@ -186,13 +193,19 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .features{
-display:flex;
-justify-content:space-between;
-}   
+    display:flex;
+    padding:94px 0 47px; ;
+    }  
 .features-items {
 width: 270px;
-height: 75px;
 }
+.features-content {
+ margin-right: 30px;   
+}
+.features-content:last-child {
+    margin-right: 0;
+  }
+
 /*======== Чем мы занимаемся=======*/
 .services-section {
 background-color:  #FFFFFF;
@@ -262,7 +275,6 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
-margin-top:60px;
 margin-left:15px;
 }
 .logo-footer-part-one {
@@ -273,24 +285,25 @@ color:var(--main-title-color);
 }   
 .adress {
 font-family:'Roboto', sans-serif;
+font-style: normal;
 font-size: 14px;
 line-height: 24px;
 line-height: 146%;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
-margin-bottom: 9px;
 }
 .footer-mail-tel-link {
 font-family:'Roboto', sans-serif;
+font-style: normal;
 font-size: 14px;
 letter-spacing: 0.03em; 
 color: rgba(255, 255, 255, 0.6);
-margin-bottom: 9px;
+margin-top:9px;
 }
 .footer {
 background-color: #2F303A;
+padding-bottom: 60px;
 padding-top: 60px;
-padding-bottom:  60px;
 }
 .footer-adress {
 display: flex;
@@ -300,22 +313,7 @@ margin-top: 20px;
 margin-bottom: 60px;
 }
 /*======== Portfolio.html======== */
-.project-name {
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--main-text-color); 
 
-}
-.project-description {
-font-weight: normal;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color:var(--secondary-text-color);
-
-}
 .projects-btn {
 font-family: 'Roboto', sans-serif;
 background-color: #F5F4FA;
@@ -334,41 +332,54 @@ margin-right: 8px;
 .projects-btn:focus {
 background-color:#188CE8;
 }
-
 .projects {
-display:flex;
-align-items: center;
-justify-items: center;
-margin-left:295px ;
-padding-bottom: 50px;
-padding-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-items: center;   
+    margin-left: 295px;
+    margin-top:94px ;
+    margin-bottom:50px ;
+    }
+.card-set  {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100%/3);
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.card-set >.project-item {
+flex-basis: calc(100%/3-30px); 
+margin-left: 30px;
+margin-top: 30px;
+}
+.project-name {
+    font-family:'Roboto', sans-serif;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 2;
+    line -height: 171%;
+    letter - spacing: 6%;
+    color:var(--main-text-color;)
+    margin-bottom:4px;
 }
 
-.our-projects {
-display:flex;
-flex-wrap: wrap;
-margin-left: -15px;
-margin-top: -15px;
+.project-description{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-size: 16px;
+line-height: 1.87;
+vertical-align:top;
+letter-spacing: 3%;
+margin-top: 4px;
+color:var(--secondary-text-color);
 }
-.projects-section { 
-background-color: #FFFFFF;
-padding-bottom: 94px;
-
+.project-content{
+    padding: 20px 24px;
+    border-radius: 4px;
+    box-shadow:rgba(0, 0, 0, 0.2);
 }
-
-.projects-items {
-border-style: ridge;
-margin-top:15px;
-margin-left: 15px;
-padding-bottom: 110px;
-flex-basis: calc(100%-90px/3);
-width: 370px;
-padding-bottom: 20px;
-margin-bottom:15px ;
-}
-.item {
-margin-right: 24px;
-margin-left: 24px;
-margin-top: 20px ;
-margin-bottom: 20px;
+.projects-section{
+    padding-bottom:94px ;
 }
