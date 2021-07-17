@@ -332,11 +332,9 @@ background-color:#188CE8;
 }
 .projects {
     display:flex;
-    align-items: center;
     justify-items: center;   
     margin-left: 295px;
-    margin-top:94px ;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
     }
 .card-set  {
     padding: 0;
@@ -380,4 +378,5 @@ color:var(--secondary-text-color);
 }
 .projects-section{
     padding-bottom:94px ;
+    padding-top: 94px;
 }
