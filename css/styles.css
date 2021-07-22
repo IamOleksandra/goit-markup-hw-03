@@ -122,7 +122,22 @@ display:flex;
 align-items: center;
 margin-left: auto;
 padding-right: 50px;
-} 
+}
+.envelope-svg {
+width: 16px;
+height :12px; 
+background-position: bottom;
+background-size: contain;
+display: inline-block;
+}
+.telephone-svg{
+width: 10px;
+height :16px; 
+background-position: bottom;
+background-size: contain;
+
+
+}
 /*======== Hero========*/
 .main-section {
 background: #2F303A;
@@ -207,6 +222,27 @@ color: var(--secondary-text-color);
     margin-top: 30px;
     width: 270px;
     }
+    .features-items::before {
+display: block;
+content:"";
+height: 120px;
+background-color:#F5F4FA ;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+.features-items:nth-child(1)::before {
+background-image: url("../images/antenna.svg");
+}
+.features-items:nth-child(2)::before {
+background-image: url("../images/clock.svg");
+}
+.features-items:nth-child(3)::before {
+    background-image: url("../images/diagram.svg");
+    }
+.features-items:nth-child(4)::before {
+background-image: url("../images/astronaut.svg");
+ }
 /*======== Чем мы занимаемся=======*/
 .services-section {
 background-color:  #FFFFFF;
