@@ -228,10 +228,12 @@ color: var(--secondary-text-color);
 display: block;
 content:"";
 height: 120px;
-
 background-repeat: no-repeat;
 background-position: center;
+background-color:#F5F4FA;
+margin-bottom: 30px;
 }
+
 .features-items:nth-child(1)::before {
 background-image: url("../images/antenna.svg");
 }
@@ -244,12 +246,6 @@ background-image: url("../images/clock.svg");
 .features-items:nth-child(4)::before {
 background-image: url("../images/astronaut.svg");
  }
- .features-items::before{
- background-color:#F5F4FA;
- margin-bottom: 30px;
-
-
-}
 /*======== Чем мы занимаемся=======*/
 .services-section {
 background-color:  #FFFFFF;
